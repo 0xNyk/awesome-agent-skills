@@ -22,7 +22,7 @@
 </a>
 
 [![AI Agent Papers](https://img.shields.io/badge/AI%20Agent-Research%20Papers-b31b1b)](https://github.com/VoltAgent/awesome-ai-agent-papers)
-![Skills Count](https://img.shields.io/badge/Skills-380+-blue?style=flat-square)
+![Skills Count](https://img.shields.io/badge/Skills-383+-blue?style=flat-square)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills?label=Last%20update&style=flat-square)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 [![GitHub forks](https://img.shields.io/github/forks/VoltAgent/awesome-agent-skills?style=social)](https://github.com/VoltAgent/awesome-agent-skills/network/members)
@@ -31,13 +31,27 @@
 
 # Awesome Agent Skills
 
-Agent Skills are folders with instructions, scripts, and resources that teach AI coding assistants specific tasks
+Unlike many bulk-generated skill repositories, this collection focuses on real-world Agent Skills created and used by actual engineering teams, not mass AI‑generated stuff.
 
 This collection features official skills published by leading development teams, including Anthropic, Google Labs, Vercel, Stripe, Cloudflare, Trail of Bits, Sentry, Expo, Hugging Face, and more, alongside community-built skills.
 
 Compatible with Claude Code, Codex, Antigravity, Gemini CLI, Cursor, GitHub Copilot, OpenCode, Windsurf, and more. See the table below for paths and documentation.
 
 The most contributed Agent Skills repository, built and maintained together with the community.
+
+
+## 🔒 Security Notice
+
+Skills in this list are curated, not audited. They may be updated, modified, or replaced by their original maintainers at any time after being added here.
+
+Before installing or using any Agent Skill, review potential security risks and validate the source yourself.
+
+Recommended tools:
+
+- [Synk Skill Security Scanner](https://github.com/snyk/agent-scan)
+- [Agent Trust Hub](https://ai.gendigital.com/agent-trust-hub)
+
+Agent skills can include prompt injections, tool poisoning, hidden malware payloads, or unsafe data handling patterns. Always review the code and use skills at your own discretion.
 
 ## Table of Contents
 
@@ -51,8 +65,8 @@ The most contributed Agent Skills repository, built and maintained together with
 | [Skills by Neon](#skills-by-neon-team) | [Skills by Cloudflare Engineer](#skill-by-cloudflare-engineer) | [Skills by ClickHouse](#skill-by-clickhouse) |
 | [Skills by fal.ai](#skills-by-falai-team) | [Skills by HashiCorp](#skills-by-hashicorp-team-for-terraform) | [Skills by Sanity](#skills-by-sanity-team) |
 | [Skills by Remotion](#skills-by-remotion-team) | [Skills by WordPress](#skills-by-wordpress-development-team) | [Skills by Transloadit](#skills-by-transloadit-team) |
-| [Skills by Firecrawl](#skills-by-firecrawl-team) | [Skills by OpenAI](#skills-by-openai) | [Community Skills](#community-skills) |
-| [Skill Quality Standards](#skill-quality-standards) | | |
+| [Skills by Firecrawl](#skills-by-firecrawl-team) | [Skills by OpenAI](#skills-by-openai) | [Skills by Replicate](#skills-by-replicate) |
+| [Skills by Typefully](#skills-by-typefully) | [Community Skills](#community-skills) | [Skill Quality Standards](#skill-quality-standards) |
 
 
 ### Skills Paths for Other AI Coding Assistants
@@ -551,6 +565,20 @@ Official curated skills from OpenAI's skills repository.
 </details>
 
 <details>
+<summary><h3 style="display:inline">Skills by Replicate</h3></summary>
+
+- **[replicate/replicate](https://github.com/replicate/skills/tree/main/skills/replicate)** - Discover, compare, and run AI models using Replicate's API
+
+</details>
+
+<details>
+<summary><h3 style="display:inline">Skills by Typefully</h3></summary>
+
+- **[typefully/typefully](https://github.com/typefully/agent-skills/tree/main/skills/typefully)** - Create, schedule, and publish social media content across X, LinkedIn, Threads, Bluesky, and Mastodon
+
+</details>
+
+<details>
 <summary><h3 style="display:inline">Community Skills</h3></summary>
 
 <details>
@@ -593,6 +621,7 @@ Official curated skills from OpenAI's skills repository.
 - **[Shpigford/readme](https://github.com/Shpigford/skills/tree/main/readme)** - Generate comprehensive project documentation
 - **[hanfang/claude-memory-skill](https://github.com/hanfang/claude-memory-skill)** - Minimal, low-friction hierarchical memory system with background agents and filesystem-based persistence
 - **[kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg)** - Extract text, tables, and metadata from 62+ document formats
+- **[Paramchoudhary/ResumeSkills](https://github.com/Paramchoudhary/ResumeSkills)** - 20 specialized skills for resume optimization, ATS analysis, interview prep, and career transitions
 
 </details>
 
