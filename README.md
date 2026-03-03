@@ -22,7 +22,7 @@
 </a>
 
 [![AI Agent Papers](https://img.shields.io/badge/AI%20Agent-Research%20Papers-b31b1b)](https://github.com/VoltAgent/awesome-ai-agent-papers)
-![Skills Count](https://img.shields.io/badge/Skills-383+-blue?style=flat-square)
+![Skills Count](https://img.shields.io/badge/Skills-506+-blue?style=flat-square)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills?label=Last%20update&style=flat-square)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 [![GitHub forks](https://img.shields.io/github/forks/VoltAgent/awesome-agent-skills?style=social)](https://github.com/VoltAgent/awesome-agent-skills/network/members)
@@ -66,7 +66,8 @@ Agent skills can include prompt injections, tool poisoning, hidden malware paylo
 | [Skills by ClickHouse](#skill-by-clickhouse) | [Skills by fal.ai](#skills-by-falai-team) | [Skills by HashiCorp](#skills-by-hashicorp-team-for-terraform) |
 | [Skills by Sanity](#skills-by-sanity-team) | [Skills by Remotion](#skills-by-remotion-team) | [Skills by WordPress](#skills-by-wordpress-development-team) |
 | [Skills by Transloadit](#skills-by-transloadit-team) | [Skills by Firecrawl](#skills-by-firecrawl-team) | [Skills by OpenAI](#skills-by-openai) |
-| [Skills by Replicate](#skills-by-replicate) | [Skills by Typefully](#skills-by-typefully) | [Community Skills](#community-skills) |
+| [Skills by Replicate](#skills-by-replicate) | [Skills by Typefully](#skills-by-typefully) | [Skills by Binance](#skills-by-binance) |
+| [Marketing Skills by Corey Haines](#marketing-skills-by-corey-haines) | [Product Manager Skills by Dean Peters](#product-manager-skills-by-dean-peters) | [Community Skills](#community-skills) |
 | [Skill Quality Standards](#skill-quality-standards) | | |
 
 
@@ -555,24 +556,148 @@ Official curated skills from OpenAI's skills repository.
 
 </details>
 
-**Skills by Neon** - **[neondatabase/using-neon](https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres)** - Best practices for Neon Serverless Postgres
+<details>
+<summary><h3 style="display:inline">Marketing Skills by Corey Haines</h3></summary>
 
-**Skill by Cloudflare Engineer** - **[dmmulroy/cloudflare-skill](https://github.com/dmmulroy/cloudflare-skill/tree/main/skills/cloudflare)** - Cloudflare platform reference for Workers, Pages, storage, AI, and networking
+Official marketing skills by [Corey Haines](https://github.com/coreyhaines31), covering the full SaaS marketing stack from SEO and copywriting to growth, CRO, and paid acquisition.
 
-**Skill by ClickHouse** - **[ClickHouse/agent-skills](https://github.com/ClickHouse/agent-skills)** - The official Agent Skills for [ClickHouse](https://clickhouse.com/). These skills help LLMs and agents to adopt best practices when working with ClickHouse.
+- **[coreyhaines31/ab-test-setup](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-test-setup)** - Plan and implement A/B tests or experiments for any digital experience
+- **[coreyhaines31/ad-creative](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative)** - Generate and iterate ad creative including headlines, descriptions, and primary text
+- **[coreyhaines31/ai-seo](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo)** - Optimize content to appear in AI-generated answers and LLM search results
+- **[coreyhaines31/analytics-tracking](https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics-tracking)** - Set up and audit analytics tracking and measurement pipelines
+- **[coreyhaines31/churn-prevention](https://github.com/coreyhaines31/marketingskills/tree/main/skills/churn-prevention)** - Build cancellation flows, save offers, and recover failed payments
+- **[coreyhaines31/cold-email](https://github.com/coreyhaines31/marketingskills/tree/main/skills/cold-email)** - Write B2B cold emails and follow-up sequences that convert
+- **[coreyhaines31/competitor-alternatives](https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-alternatives)** - Build competitor comparison and alternative landing pages for SEO
+- **[coreyhaines31/content-strategy](https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy)** - Plan content strategy and decide what topics and formats to prioritize
+- **[coreyhaines31/copy-editing](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing)** - Edit and improve existing marketing copy for clarity and impact
+- **[coreyhaines31/copywriting](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting)** - Write and rewrite marketing copy for landing pages, homepages, and ads
+- **[coreyhaines31/email-sequence](https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence)** - Build email sequences, drip campaigns, and lifecycle email flows
+- **[coreyhaines31/form-cro](https://github.com/coreyhaines31/marketingskills/tree/main/skills/form-cro)** - Optimize lead capture and contact forms to improve conversion
+- **[coreyhaines31/free-tool-strategy](https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tool-strategy)** - Plan and build free tools for lead generation and SEO value
+- **[coreyhaines31/launch-strategy](https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch-strategy)** - Plan product launches, feature announcements, and go-to-market strategies
+- **[coreyhaines31/marketing-ideas](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas)** - Generate marketing strategies and campaign ideas for SaaS products
+- **[coreyhaines31/marketing-psychology](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology)** - Apply psychological principles and behavioral science to copy and design
+- **[coreyhaines31/onboarding-cro](https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding-cro)** - Optimize post-signup onboarding and user activation to improve time-to-value
+- **[coreyhaines31/page-cro](https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro)** - Improve conversion rates on any marketing page including homepages and landing pages
+- **[coreyhaines31/paid-ads](https://github.com/coreyhaines31/marketingskills/tree/main/skills/paid-ads)** - Create and optimize paid campaigns on Google, Meta, LinkedIn, and more
+- **[coreyhaines31/paywall-upgrade-cro](https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywall-upgrade-cro)** - Design and optimize upgrade screens, paywalls, and upsell modals
+- **[coreyhaines31/popup-cro](https://github.com/coreyhaines31/marketingskills/tree/main/skills/popup-cro)** - Create and optimize popups, modals, and slide-ins for conversions
+- **[coreyhaines31/pricing-strategy](https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy)** - Define pricing, packaging, and monetization strategy for SaaS products
+- **[coreyhaines31/product-marketing-context](https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing-context)** - Create and maintain a product marketing context document for consistent messaging
+- **[coreyhaines31/programmatic-seo](https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo)** - Build SEO-driven page templates for large-scale content generation
+- **[coreyhaines31/referral-program](https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program)** - Design and optimize referral, affiliate, and word-of-mouth programs
+- **[coreyhaines31/revops](https://github.com/coreyhaines31/marketingskills/tree/main/skills/revops)** - Streamline revenue operations, lead lifecycle, and marketing-to-sales handoff
+- **[coreyhaines31/sales-enablement](https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement)** - Create pitch decks, one-pagers, objection handling docs, and demo scripts
+- **[coreyhaines31/schema-markup](https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema-markup)** - Add and optimize schema markup and structured data for better SEO
+- **[coreyhaines31/seo-audit](https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit)** - Audit and diagnose technical and on-page SEO issues on a site
+- **[coreyhaines31/signup-flow-cro](https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup-flow-cro)** - Optimize signup, registration, and trial activation flows for higher conversion
+- **[coreyhaines31/site-architecture](https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture)** - Plan and restructure page hierarchy, navigation, and URL structure
+- **[coreyhaines31/social-content](https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content)** - Create and schedule social media content for LinkedIn, Twitter/X, and Instagram
 
-**Skills by Remotion** - **[remotion-dev/remotion](https://github.com/remotion-dev/skills/tree/main/skills/remotion)** - Programmatic video creation with React
+</details>
 
-**Skills by Replicate** - **[replicate/replicate](https://github.com/replicate/skills/tree/main/skills/replicate)** - Discover, compare, and run AI models using Replicate's API
+<details>
+<summary><h3 style="display:inline">Skills by Binance</h3></summary>
 
-**Skills by Typefully** - **[typefully/typefully](https://github.com/typefully/agent-skills/tree/main/skills/typefully)** - Create, schedule, and publish social media content across X, LinkedIn, Threads, Bluesky, and Mastodon
+Official Web3 and trading skills from the Binance team. Includes crypto market data, on-chain analytics, token security auditing, and spot trading via the Binance API.
+
+- **[binance/crypto-market-rank](https://github.com/binance/binance-skills-hub/tree/main/skills/binance-web3/crypto-market-rank)** - Query crypto market rankings including trending tokens, smart money inflows, meme rankings, and top trader PnL leaderboards
+- **[binance/meme-rush](https://github.com/binance/binance-skills-hub/tree/main/skills/binance-web3/meme-rush)** - Track real-time meme token lists from launchpads (Pump.fun, Four.meme) and AI-powered hot market topics ranked by net inflow
+- **[binance/query-address-info](https://github.com/binance/binance-skills-hub/tree/main/skills/binance-web3/query-address-info)** - Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana
+- **[binance/query-token-audit](https://github.com/binance/binance-skills-hub/tree/main/skills/binance-web3/query-token-audit)** - Audit token security to detect scams, honeypots, and malicious contracts across BSC, Base, Solana, and Ethereum
+- **[binance/query-token-info](https://github.com/binance/binance-skills-hub/tree/main/skills/binance-web3/query-token-info)** - Search tokens and fetch metadata, real-time market data, and K-Line candlestick charts by keyword or contract address
+- **[binance/trading-signal](https://github.com/binance/binance-skills-hub/tree/main/skills/binance-web3/trading-signal)** - Monitor on-chain Smart Money buy/sell signals with price, max gain, and exit rate data on Solana and BSC
+- **[binance/spot](https://github.com/binance/binance-skills-hub/tree/main/skills/binance/spot)** - Place and manage spot trading orders on Binance via API key authentication, supporting mainnet and testnet
+
+</details>
+
+
+
+### Skills by Neon 
+- **[neondatabase/using-neon](https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres)** - Best practices for Neon Serverless Postgres
+
+### Skills by Cloudflare Engineer 
+- **[dmmulroy/cloudflare-skill](https://github.com/dmmulroy/cloudflare-skill/tree/main/skills/cloudflare)** - Cloudflare platform reference for Workers, Pages, storage, AI, and networking
+
+### Skill by ClickHouse 
+- **[ClickHouse/agent-skills](https://github.com/ClickHouse/agent-skills)** - The official Agent Skills for [ClickHouse](https://clickhouse.com/). These skills help LLMs and agents to adopt best practices when working with ClickHouse.
+
+### Skills by Remotion 
+- **[remotion-dev/remotion](https://github.com/remotion-dev/skills/tree/main/skills/remotion)** - Programmatic video creation with React
+
+### Skills by Replicate 
+- **[replicate/replicate](https://github.com/replicate/skills/tree/main/skills/replicate)** - Discover, compare, and run AI models using Replicate's API
+
+### Skills by Typefully 
+- **[typefully/typefully](https://github.com/typefully/agent-skills/tree/main/skills/typefully)** - Create, schedule, and publish social media content across X, LinkedIn, Threads, Bluesky, and Mastodon
+
+<details>
+<summary><h3 style="display:inline">Product Manager Skills by Dean Peters</h3></summary>
+
+46 battle-tested product management skills by [Dean Peters](https://github.com/deanpeters). Frame problems, hunt opportunities, scaffold validation experiments, and kill bad bets fast — with frameworks from Teresa Torres, Geoffrey Moore, Amazon, MITRE, and more.
+
+**Component Skills**
+
+- **[deanpeters/acquisition-channel-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/acquisition-channel-advisor)** - Evaluate channels using unit economics and recommend scale/test/kill decisions
+- **[deanpeters/ai-shaped-readiness-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/ai-shaped-readiness-advisor)** - Assess automation vs. redesign opportunities across five competencies
+- **[deanpeters/altitude-horizon-framework](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/altitude-horizon-framework)** - Navigate the PM→Director mindset shift covering scope, time horizons, and failure modes
+- **[deanpeters/business-health-diagnostic](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/business-health-diagnostic)** - Diagnose SaaS health, identify red flags, and prioritize recovery actions
+- **[deanpeters/company-research](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/company-research)** - Deep-dive competitor or company analysis
+- **[deanpeters/customer-journey-map](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/customer-journey-map)** - Map customer experience across touchpoints using the NNGroup framework
+- **[deanpeters/eol-message](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/eol-message)** - Communicate product or feature deprecation gracefully
+- **[deanpeters/epic-hypothesis](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/epic-hypothesis)** - Turn initiatives into testable hypotheses with measurable success metrics
+- **[deanpeters/finance-metrics-quickref](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/finance-metrics-quickref)** - Reference guide for 32+ SaaS finance metrics with formulas and benchmarks
+- **[deanpeters/jobs-to-be-done](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/jobs-to-be-done)** - Understand customer objectives using the JTBD framework
+- **[deanpeters/pestel-analysis](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pestel-analysis)** - Analyze external factors across Political, Economic, Social, Tech, Environmental, and Legal dimensions
+- **[deanpeters/pol-probe](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pol-probe)** - Define lightweight validation experiments to test hypotheses
+- **[deanpeters/positioning-statement](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement)** - Define target audience, problem solved, and differentiation using Geoffrey Moore's framework
+- **[deanpeters/press-release](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/press-release)** - Clarify product vision with a future press release using Amazon's Working Backwards method
+- **[deanpeters/problem-statement](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/problem-statement)** - Frame customer problems with evidence before jumping to solutions
+- **[deanpeters/proto-persona](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/proto-persona)** - Create hypothesis-driven personas before conducting full research
+- **[deanpeters/recommendation-canvas](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/recommendation-canvas)** - Document AI-powered product recommendations
+- **[deanpeters/saas-economics-efficiency-metrics](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/saas-economics-efficiency-metrics)** - Calculate unit economics and capital efficiency including CAC, LTV, payback, and Rule of 40
+- **[deanpeters/saas-revenue-growth-metrics](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/saas-revenue-growth-metrics)** - Track revenue, retention, and growth metrics including MRR/ARR, churn, NRR, and expansion
+- **[deanpeters/storyboard](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/storyboard)** - Visualize user journeys with 6-frame narrative storyboards
+- **[deanpeters/user-story](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story)** - Write user stories with acceptance criteria using Mike Cohn and Gherkin formats
+- **[deanpeters/user-story-mapping](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping)** - Organize stories by user workflow using Jeff Patton's story mapping approach
+- **[deanpeters/user-story-splitting](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-splitting)** - Break down large stories using 8 proven splitting patterns
+
+**Interactive Skills**
+
+- **[deanpeters/context-engineering-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/context-engineering-advisor)** - Diagnose context stuffing vs. engineering and guide memory and retrieval design
+- **[deanpeters/customer-journey-mapping-workshop](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/customer-journey-mapping-workshop)** - Guide journey mapping sessions with pain point identification
+- **[deanpeters/director-readiness-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/director-readiness-advisor)** - Coach the PM→Director transition across four key situations
+- **[deanpeters/discovery-interview-prep](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/discovery-interview-prep)** - Plan customer interviews using Mom Test style based on research goals
+- **[deanpeters/epic-breakdown-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/epic-breakdown-advisor)** - Split epics into stories using Richard Lawrence's 9 splitting patterns
+- **[deanpeters/feature-investment-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor)** - Evaluate features using ROI and strategic value scoring
+- **[deanpeters/finance-based-pricing-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/finance-based-pricing-advisor)** - Evaluate pricing changes using financial impact analysis
+- **[deanpeters/lean-ux-canvas](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/lean-ux-canvas)** - Set up hypothesis-driven planning using Jeff Gothelf's Lean UX Canvas v2
+- **[deanpeters/opportunity-solution-tree](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/opportunity-solution-tree)** - Generate opportunities and solutions and recommend proof-of-concept tests
+- **[deanpeters/pol-probe-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pol-probe-advisor)** - Recommend prototype type: Feasibility, Task-Focused, Narrative, Synthetic, or Vibe
+- **[deanpeters/positioning-workshop](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-workshop)** - Guide positioning definition with adaptive discovery questions
+- **[deanpeters/prioritization-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prioritization-advisor)** - Recommend the right prioritization framework (RICE, ICE, Kano, etc.) for your situation
+- **[deanpeters/problem-framing-canvas](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/problem-framing-canvas)** - Lead through MITRE Problem Framing: Look Inward, Outward, and Reframe
+- **[deanpeters/tam-sam-som-calculator](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/tam-sam-som-calculator)** - Project market size with real-world data and citations
+- **[deanpeters/user-story-mapping-workshop](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping-workshop)** - Walk through creating story maps with backbone and release slices
+- **[deanpeters/vp-cpo-readiness-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/vp-cpo-readiness-advisor)** - Coach the Director→VP/CPO transition including a CEO interview framework
+- **[deanpeters/workshop-facilitation](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/workshop-facilitation)** - Add step-by-step facilitation with numbered recommendations to any workshop
+
+**Workflow Skills**
+
+- **[deanpeters/discovery-process](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/discovery-process)** - Full discovery cycle: frame problem → research → synthesize → validate (3-4 weeks)
+- **[deanpeters/executive-onboarding-playbook](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/executive-onboarding-playbook)** - 30-60-90 day diagnostic playbook for VP/CPO onboarding transitions
+- **[deanpeters/prd-development](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prd-development)** - Structured PRD process: problem → personas → solution → metrics → stories (2-4 days)
+- **[deanpeters/product-strategy-session](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/product-strategy-session)** - Full strategy session: positioning → framing → exploration → roadmap (2-4 weeks)
+- **[deanpeters/roadmap-planning](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/roadmap-planning)** - Strategic roadmap process: inputs → epics → prioritize → sequence → communicate (1-2 weeks)
+- **[deanpeters/skill-authoring-workflow](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/skill-authoring-workflow)** - Meta workflow for authoring skills: choose path → validate → update docs → package
+
+</details>
 
 ### Community Skills
 
 <details>
 <summary><h3 style="display:inline">Marketing</h3></summary>
 
-- **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)** - 23+ marketing skills for SEO, copywriting, email, and ads
 - **[BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills)** - 17 marketing frameworks for cold outreach, homepage audit, social cards, and more
 - **[AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)** - Universal SEO skill for comprehensive website analysis and optimization
 - **[ComposioHQ/content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer)** - Enhance writing with research
@@ -697,6 +822,7 @@ Official curated skills from OpenAI's skills repository.
 - **[komal-SkyNET/claude-skill-homeassistant](https://github.com/komal-SkyNET/claude-skill-homeassistant)** - Supercharge and manage Home Assistant workflows
 - **[more-io/apple-bridges](https://github.com/more-io/claude-apple-bridges)** - Native macOS app access — manage Apple Reminders, Calendar, Contacts, Notes, Mail, and tmux sessions via Swift CLI bridges
 - **[prompt-security/clawsec](https://github.com/prompt-security/clawsec)** - Security skill suite with drift detection, automated audits, and skill integrity verification
+- **[BehiSecc/vibesec](https://github.com/BehiSecc/VibeSec-Skill)** - Helps write secure code by preventing common vulnerabilities including IDOR, XSS, SQL injection, SSRF, and weak authentication, approaching code from a bug hunter's perspective
 - **[lawvable/awesome-legal-skills](https://github.com/lawvable/awesome-legal-skills)** - Curated agent skills for automating legal workflows
 - **[peas/genealogy-research](https://paulo.com.br/skills/genealogy-research/SKILL.md)** - Genealogy research agent with OCR, FamilySearch, YAML data, and human-in-the-loop
 - **[zw008/VMware-AIops](https://github.com/zw008/VMware-AIops)** - AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.
