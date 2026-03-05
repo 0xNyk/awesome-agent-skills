@@ -22,7 +22,7 @@
 </a>
 
 [![AI Agent Papers](https://img.shields.io/badge/AI%20Agent-Research%20Papers-b31b1b)](https://github.com/VoltAgent/awesome-ai-agent-papers)
-![Skills Count](https://img.shields.io/badge/Skills-506+-blue?style=flat-square)
+![Skills Count](https://img.shields.io/badge/Skills-549+-blue?style=flat-square)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills?label=Last%20update&style=flat-square)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 [![GitHub forks](https://img.shields.io/github/forks/VoltAgent/awesome-agent-skills?style=social)](https://github.com/VoltAgent/awesome-agent-skills/network/members)
@@ -59,7 +59,8 @@ Agent skills can include prompt injections, tool poisoning, hidden malware paylo
 |---|---|---|
 | [Official Claude Skills](#official-claude-skills) | [Skills by Vercel](#skills-by-vercel-engineering-team) | [Skills by Cloudflare](#skills-by-cloudflare-team) | [Skills by Composio](#skills-by-composio) |
 | [Skills by Netlify](#skills-by-netlify-team) | [Skills by Supabase](#skills-by-supabase-team) | [Skills by Google Gemini](#skills-by-google-gemini) |
-| [Skills by Google Labs (Stitch)](#skills-by-google-labs-stitch) | [Skills by Hugging Face](#skills-by-hugging-face-team) | [Skills by Stripe](#skills-by-stripe-team) |
+| [Skills by Google Labs (Stitch)](#skills-by-google-labs-stitch) | [Skills by Google Workspace CLI](#skills-by-google-workspace-cli) | [Skills by Hugging Face](#skills-by-hugging-face-team) |
+| [Skills by Stripe](#skills-by-stripe-team) |
 | [Skills by CallStack](#skills-by-callstack) | [Skills by Trail of Bits](#security-skills-by-trail-of-bits-team) | [Skills by Expo](#skills-by-expo-team) |
 | [Skills by Sentry](#skills-by-sentry-team-for-their-dev-team) | [Skills by Better Auth](#skills-by-better-auth-team) | [Skills by Tinybird](#skills-by-tinybird-team) |
 | [Skills by Microsoft](#skills-by-microsoft) | [Skills by Neon](#skills-by-neon-team) | [Skills by Cloudflare Engineer](#skill-by-cloudflare-engineer) |
@@ -183,6 +184,40 @@ Agent Skills for the Stitch MCP server, compatible with Claude Code, Gemini CLI,
 - **[google-labs-code/remotion](https://github.com/google-labs-code/stitch-skills/tree/main/skills/remotion)** - Generate walkthrough videos from Stitch app designs
 - **[google-labs-code/shadcn-ui](https://github.com/google-labs-code/stitch-skills/tree/main/skills/shadcn-ui)** - Build UI components with shadcn/ui
 - **[google-labs-code/stitch-loop](https://github.com/google-labs-code/stitch-skills/tree/main/skills/stitch-loop)** - Iterative design-to-code feedback loop
+
+</details>
+
+<details>
+<summary><h3 style="display:inline">Skills by Google Workspace CLI</h3></summary>
+
+Official Google Workspace CLI skills for managing Google Workspace services via the `gws` CLI tool.
+
+- **[googleworkspace/gws-shared](https://github.com/googleworkspace/cli/tree/main/skills/gws-shared)** - Shared authentication, global flags, and output formatting
+- **[googleworkspace/gws-drive](https://github.com/googleworkspace/cli/tree/main/skills/gws-drive)** - Manage Google Drive files, folders, and shared drives
+- **[googleworkspace/gws-sheets](https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets)** - Read and write Google Sheets spreadsheets
+- **[googleworkspace/gws-gmail](https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail)** - Send, read, and manage Gmail email
+- **[googleworkspace/gws-calendar](https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar)** - Manage Google Calendar calendars and events
+- **[googleworkspace/gws-admin](https://github.com/googleworkspace/cli/tree/main/skills/gws-admin)** - Manage Workspace users, groups, and devices
+- **[googleworkspace/gws-admin-reports](https://github.com/googleworkspace/cli/tree/main/skills/gws-admin-reports)** - Audit logs and usage reports for Workspace
+- **[googleworkspace/gws-docs](https://github.com/googleworkspace/cli/tree/main/skills/gws-docs)** - Read and write Google Docs documents
+- **[googleworkspace/gws-slides](https://github.com/googleworkspace/cli/tree/main/skills/gws-slides)** - Read and write Google Slides presentations
+- **[googleworkspace/gws-tasks](https://github.com/googleworkspace/cli/tree/main/skills/gws-tasks)** - Manage Google Tasks task lists and tasks
+- **[googleworkspace/gws-people](https://github.com/googleworkspace/cli/tree/main/skills/gws-people)** - Manage Google People contacts and profiles
+- **[googleworkspace/gws-chat](https://github.com/googleworkspace/cli/tree/main/skills/gws-chat)** - Manage Google Chat spaces and messages
+- **[googleworkspace/gws-vault](https://github.com/googleworkspace/cli/tree/main/skills/gws-vault)** - Manage Google Vault eDiscovery holds and exports
+- **[googleworkspace/gws-groupssettings](https://github.com/googleworkspace/cli/tree/main/skills/gws-groupssettings)** - Manage Google Groups settings
+- **[googleworkspace/gws-reseller](https://github.com/googleworkspace/cli/tree/main/skills/gws-reseller)** - Manage Google Workspace Reseller subscriptions
+- **[googleworkspace/gws-licensing](https://github.com/googleworkspace/cli/tree/main/skills/gws-licensing)** - Manage Workspace Enterprise product licenses
+- **[googleworkspace/gws-apps-script](https://github.com/googleworkspace/cli/tree/main/skills/gws-apps-script)** - Manage and execute Google Apps Script projects
+- **[googleworkspace/gws-classroom](https://github.com/googleworkspace/cli/tree/main/skills/gws-classroom)** - Manage Google Classroom classes, rosters, and coursework
+- **[googleworkspace/gws-cloudidentity](https://github.com/googleworkspace/cli/tree/main/skills/gws-cloudidentity)** - Manage Cloud Identity groups and memberships
+- **[googleworkspace/gws-alertcenter](https://github.com/googleworkspace/cli/tree/main/skills/gws-alertcenter)** - Manage Workspace Alert Center security alerts
+- **[googleworkspace/gws-forms](https://github.com/googleworkspace/cli/tree/main/skills/gws-forms)** - Read and write Google Forms
+- **[googleworkspace/gws-keep](https://github.com/googleworkspace/cli/tree/main/skills/gws-keep)** - Manage Google Keep notes
+- **[googleworkspace/gws-meet](https://github.com/googleworkspace/cli/tree/main/skills/gws-meet)** - Manage Google Meet conferences
+- **[googleworkspace/gws-events](https://github.com/googleworkspace/cli/tree/main/skills/gws-events)** - Subscribe to Google Workspace events
+- **[googleworkspace/gws-modelarmor](https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor)** - Filter user-generated content for safety
+- **[googleworkspace/gws-workflow](https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow)** - Cross-service Google Workspace productivity workflows
 
 </details>
 
