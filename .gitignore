@@ -3,3 +3,5 @@ skills/downloads/
 scripts/__pycache__/
 scripts/download-skills.py
 .DS_Store
+config.bat
+node_modules
